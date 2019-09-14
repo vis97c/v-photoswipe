@@ -117,3 +117,20 @@ export default {
   }
 }
 </script>
+<style>
+  .pswp--open{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+  }
+  .pswp--open .pswp__bg{
+    opacity: .9 !important;
+  }
+  .pswp--open .pswp__scroll-wrap .pswp__ui{
+    position: static;
+  }
+  .pswp--open .pswp__scroll-wrap .pswp__ui .pswp__caption .pswp__caption__center{
+    text-align: center;
+  }
+</style>
